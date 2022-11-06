@@ -7,6 +7,7 @@ import About from "../pages/about/About";
 import Login from "../pages/login/Login";
 import Detail from "../pages/detail/Detail";
 import NotFound from "../components/notFound/NotFound";
+import PrivateRouter from "./PrivateRouter";
 
 const AppRouter = () => {
   return (
@@ -16,9 +17,17 @@ const AppRouter = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
-        <Route path="detail" element={<Detail />} />
+
+        <Route path="about" element={<PrivateRouter />}>
+          {/* OUTLET  */}
+          <Route path="" element={<About />} />
+        </Route>
+        <Route path="detail" element={<PrivateRouter />}>
+          {/* OUTLET  */}
+          <Route path="" element={<Detail />} />
+        </Route>
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
