@@ -7,7 +7,7 @@ import {
   IngContainer,
   OtherPart,
 } from "./Detail.style";
-import { Navigate, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import diet from "../../assets/diet.svg";
 import { Button } from "../../components/cards/Cards.style";
 

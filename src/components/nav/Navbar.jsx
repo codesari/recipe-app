@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import { Link } from "react-router-dom";
-import Flex from "../styled/Flex.Styled";
+// import Flex from "../styled/Flex.Styled";
 import { Brand, NavbarStyled, Menu, MenuLink, Hamburger } from "./Navbar.style";
 import { GiHamburgerMenu } from "react-icons/gi";
 
