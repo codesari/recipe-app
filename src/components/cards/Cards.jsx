@@ -14,7 +14,7 @@ const Cards = ({ recipes }) => {
             <Image src={recipe.image || defaultImage} />
             <Button
               onClick={
-                () => navigate("detail", { state: recipe, replace: false })
+                () => navigate("detail", { state: recipe })
                 // navigate("detail", { state: recipe, replace: false })
                 //! replace:false old. takdirde history bilgisi tutulmaz.navigate ile -1 diyemeyiz
               }
