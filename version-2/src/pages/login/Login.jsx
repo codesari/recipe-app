@@ -1,7 +1,12 @@
 import React from "react";
+import { LoginDiv } from "./LoginStyled";
 
 const Login = () => {
-  return <div>Login</div>;
+  return (
+    <LoginDiv>
+      <p>login</p>
+    </LoginDiv>
+  );
 };
 
 export default Login;

@@ -1,7 +1,7 @@
 const theme = {
   bgColor: "#EAE9E4",
-  navLinkColor: "#F6B219",
-  brown: "#F6B219",
+  navLinkColor: "#eda911",
+  brown: "#5A2F27",
 };
 
 export default theme;

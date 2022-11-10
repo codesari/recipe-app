@@ -6,10 +6,12 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import PrivateRouter from "./PrivateRouter";
+import { GlobalStyles } from "../components/global/GlobalStyles";
 
 const AppRouter = () => {
   return (
     <>
+      <GlobalStyles />
       <Navbar />
 
       <Routes>
