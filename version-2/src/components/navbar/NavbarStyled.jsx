@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NavbarDiv = styled.div`
   width: 100%;
   height: 80px;
-  background-color: ${({ theme }) => theme.bgColor};
+  background-color: ${({ theme }) => theme.brown};
 `;
 
 export const NavLink = styled.a`
@@ -22,5 +22,5 @@ export const NavFlex = styled.div`
 
 export const H1 = styled.h1`
   margin-left: 1rem;
-  color: ${({ theme }) => theme.brown};
+  color: ${({ theme }) => theme.bgColor};
 `;

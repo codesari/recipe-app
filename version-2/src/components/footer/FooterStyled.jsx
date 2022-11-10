@@ -7,6 +7,7 @@ export const FooterDiv = styled.div`
 `;
 
 export const FooterFlex = styled.div`
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
