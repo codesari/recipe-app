@@ -1,13 +1,16 @@
 import React from "react";
-import { H1, NavbarDiv, NavFlex, NavLink } from "./NavbarStyled";
+import { Brand, H1, NavbarDiv, NavFlex, NavLink } from "./NavbarStyled";
+import img from "../../assets/images/recipe-logo.png";
+import { Flex } from "../global/Flex";
 
 const Navbar = () => {
   return (
     <NavbarDiv>
       <NavFlex>
-        <div>
-          <H1>Recipe</H1>
-        </div>
+        <Flex>
+          <Brand src={img} />
+          <H1>Recipe Book</H1>
+        </Flex>
         <div>
           <NavLink href="/">Home</NavLink>
           <NavLink href="about">About</NavLink>

@@ -16,7 +16,6 @@ export const LoginForm = styled.form`
   height: 80%;
   width: 30%;
 
-  padding: 60px 50px 80px 50px;
   background: rgb(90, 47, 39, 0.5);
 
   border-radius: 10px;
@@ -25,10 +24,11 @@ export const LoginForm = styled.form`
 export const LoginInput = styled.input`
   border: none;
   border-radius: 5px;
-  padding: 1rem;
-  margin: 1rem;
-  /* background: transparent; */
+  padding: 0.7rem;
+  margin: 0.7rem;
   border-bottom: 1px solid black;
+  position: relative;
+  top: -50px;
 `;
 export const LoginButton = styled.button`
   padding: 0.5rem;
@@ -37,6 +37,8 @@ export const LoginButton = styled.button`
   color: white;
   width: 40%;
   border-radius: 30px;
+  position: relative;
+  top: -50px;
   &:active {
     transform: scale(0.97);
   }
@@ -49,7 +51,15 @@ export const GuestButton = styled.button`
   width: 30%;
   border-radius: 30px;
   border: none;
+  position: relative;
+  top: -50px;
   &:active {
     transform: scale(0.97);
   }
+`;
+export const LoginImg = styled.img`
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -50px;
 `;
